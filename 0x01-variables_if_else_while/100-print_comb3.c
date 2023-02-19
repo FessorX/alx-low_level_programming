@@ -8,17 +8,17 @@
 
 int main(void)
 {
-	int ones;
+	int units;
 	int tens;
 
 	for (tens = '0'; tens <= '9'; tens++) /*increment tens*/
 	{
-		for (ones = (tens + 1); ones <= '9'; ones++) /*one's ten+1*/
+		for (units = (tens + 1); units <= '9'; units++) /*one's ten+1*/
 		{
 			putchar(tens);
-			putchar(ones);
+			putchar(units);
 
-			if (tens != '8' || ones != '9') /*print commas*/
+			if (tens != '8' || units != '9') /*print commas*/
 			{
 				putchar(',');
 				putchar(' ');

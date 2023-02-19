@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - print lowercase a-z
- *Return: Always 0 (Success)
+ *Return: 0 (Success)
  */
 int main(void)
 {
@@ -9,9 +9,11 @@ int main(void)
 
 	while (alpha <= 'z')
 	{
-	putchar(alpha);
-	alpha++;
+		putchar(alpha);
+		alpha++;
 	}
+
 	putchar('\n');
+
 	return (0);
 }
