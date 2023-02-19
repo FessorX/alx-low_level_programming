@@ -13,7 +13,7 @@ int main(void)
 
 	for (hundreds = '0'; hundreds <= '9'; hundreds++) /*hundreds place*/
 	{
-		for (tens = (hundreds + 1); ten <= '9'; ten++) /*tens=100s+1*/
+		for (tens = (hundreds + 1); tens <= '9'; tens++) /*tens=100s+1*/
 		{
 			for (units = (tens + 1); units <= '9'; units++) /*units=10s+1*/
 			{

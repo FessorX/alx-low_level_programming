@@ -12,15 +12,19 @@ int main(void)
 	int t;
 	int o;
 
-	if (!((tens == t) && (ones == o)))
+	for (tens = '0'; tens <= '9'; tens++) /*print first two digit combo*/
 	{
-		for (tens = '0'; tens <= '9'; tens++) /*print first two digit combo*/
+		for (ones = '0'; ones <= '9'; ones++)
 		{
-			for (ones = '0'; ones <= '9'; ones++)
+			for (t = '0'; t <= '9'; t++) /*print second of pair*/
 			{
-				for (t = '0'; t <= '9'; t++) /*print second of pair*/
+				for (o = '0'; o <= '9'; o++)
 				{
-					for (o = '0'; o <= '9'; o++)
+					if (tens == t && ones == o)
+					{
+						continue;
+					}
+					else
 					{
 						putchar(tens);
 						putchar(ones);
