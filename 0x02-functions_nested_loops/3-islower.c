@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * islower- checks lowercase alphabet
+ * _islower- checks lowercase alphabet
  * @c: characte input
  * Return: 0 (Uppercase), 1 (lower)
  */
 
-int islower(int c)
+int _islower(int c)
 {
 	if ((c >= 65) && (c <= 90))
 	{
@@ -16,4 +16,5 @@ int islower(int c)
 	{
 		return (1);
 	}
+	_putchar('\n');
 }
