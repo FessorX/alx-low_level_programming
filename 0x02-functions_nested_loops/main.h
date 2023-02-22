@@ -9,6 +9,6 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int _putchar(char)
+int _putchar(char);
 
 #endif
