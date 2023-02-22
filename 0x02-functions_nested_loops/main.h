@@ -10,3 +10,5 @@
  */
 
 int _putchar(char)
+
+#endif
