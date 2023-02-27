@@ -7,7 +7,7 @@
  * @b: pointer to 2nd int
  */
 
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int c;
 	int d;
