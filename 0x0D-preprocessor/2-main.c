@@ -3,7 +3,8 @@
 /**
  * main- primts file name
  *
- * return: (0) success
+ * Return: (0) success
+ */
 int main(void)
 {
 	printf("%s\n", __FILE__);
