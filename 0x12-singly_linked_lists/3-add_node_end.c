@@ -2,14 +2,15 @@
 /**
  * add_node_end - Add a new node at the end of a list.
  * @head: Address of the first node of a list.
- * @str: Address of the string to insert into the new node.
- * Return: Address of the new node.
+ * @str: data to be added.
+ *
+ * Return: Address of new node.
  **/
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *temp, *temp2;
 	unsigned int length = 0;
+	list_t *temp, *temp2;
 
 	if (str == NULL)
 		return (NULL);
